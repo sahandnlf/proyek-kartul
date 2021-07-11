@@ -1,0 +1,18 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+
+<div class="header-bar">
+    <a href="{% url 'tasks' %}">&#8592; Kembali</a>
+</div>
+
+<div class="card-body">
+<form method="POST">
+    {% csrf_token %}
+    <p>Anda yakin ingin menghapus aktivitas ini? "{{task}}"</p>
+    <input class="button" type="submit" value="Hapus"/>
+</form>
+</div>
+
+{% endblock content %}
+
