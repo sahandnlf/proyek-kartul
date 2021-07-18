@@ -36,11 +36,12 @@ p {
     padding: 10px;
     border-radius: 5px 5px 0 0;
     background: linear-gradient(90deg, #9876ff 0%, #9876ff 35%,#4000ff 100%);
-    text-decoration: none;
-    color: #4b5156;
-    margin-left: 10px;
 }
 
+.header-bar a {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
 
  .task-wrapper {
     display: flex;
@@ -53,6 +54,9 @@ p {
 }
 .task-judul {
     display: flex;
+}
+
+.task-judul a {
     text-decoration: none;
     color: #4b5156;
     margin-left: 10px;
