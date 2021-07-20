@@ -12,6 +12,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormVi
 from django.urls import reverse_lazy
 
 
+
 class LoginViewCustom(LoginView):
     template_name = 'base/login.html'
     fields = '__all__'
